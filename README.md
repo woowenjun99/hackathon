@@ -15,7 +15,12 @@ $ pip3 install -r requirements.txt
 ```
 
 Run the backend
-```
+``` bash
 $ export FLASK_APP=app
 $ flask run
+```
+
+Run the following command to transfer everything to the requirements.txt
+``` bash
+$ python3 -m pip freeze > requirements.txt
 ```
